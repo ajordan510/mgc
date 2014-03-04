@@ -1,0 +1,16 @@
+[global]
+ApplicationName=mgc
+AwsCredentialFile=C:\Users\ajjor_000\.elasticbeanstalk\aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-west-1.amazonaws.com
+EnvironmentName=mgc-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=SingleInstance
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=C:\Users\ajjor_000\Documents\mgc\.elasticbeanstalk\optionsettings.mgc-env
+RdsDeletionPolicy=Delete
+RdsEnabled=Yes
+RdsSourceSnapshotName=
+Region=us-west-1
+ServiceEndpoint=https://elasticbeanstalk.us-west-1.amazonaws.com
+SolutionStack=32bit Amazon Linux 2013.09 running Ruby 1.9.3
+
