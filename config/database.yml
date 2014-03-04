@@ -26,5 +26,5 @@ production:
   password: <%= ENV['RDS_PASSWORD'] %>
   hose: <%= ENV['RDS_HOSTNAME'] %>
   port: <%= ENV['RDS_PORT'] %>
-  pool: 5
-  timeout: 5000
+#  pool: 5
+ # timeout: 5000
