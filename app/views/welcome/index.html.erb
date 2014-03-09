@@ -1,2 +1,41 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#slideshow').fadeSlideShow();
+		});
+	</script>
+
+
+
+	<div class = "navbar" id="navbar">
+		<div class = "navbar-inner">
+			<table class = "nav-table">
+				<tr class = "nav-tr">
+					<td class="nav-td" id="nav-left-blank"> </td>
+					<td class="nav-td" id="nav-logo" onclick="ScrollAnimate('body')"> Madison Gift Club</td>
+					<td class="nav-td" id="nav-how-it-works"><a id="how-it-works-link" href="#" onclick = "ScrollAnimate('#how-it-works')">How it works</a></td>
+					<td class="nav-td" id="nav-testimonials"><a id="testimonials-link" href="#t" onclick = "ScrollAnimate('#testimonials')">Testimonials</a></td>
+					<td class="nav-td" id="nav-log-in">Log In</td>
+					<td class="nav-blank-right" id="nav-right-blank"> </td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+<div id="slideshowWrapper">
+<ul id="slideshow">
+        <li><img class="slideshow-image" src="/assets/3.jpg" alt="" /></li> <!-- This is the last image in the slideshow -->
+        <li><img class="slideshow-image" src="/assets/2.jpg" alt="" /></li>
+        <li><img class="slideshow-image" src="/assets/1.jpg" alt="" /></li> <!-- This is the first image in the slideshow -->
+    </ul><br />
+</div>
+
+
+
+<div id="how-it-works">
+How it works section
+</div>
+<div id="testimonials">
+Testimonial section
+</div>
+
