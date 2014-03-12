@@ -14,7 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//= require navbar
-//= require fadeSlideShow
-jQuery.noConflict()
+
 
