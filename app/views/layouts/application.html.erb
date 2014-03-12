@@ -10,7 +10,7 @@
   <title><%=  @title %></title>
   <%= stylesheet_link_tag    "application", media: "all" %>
   
-
+  <%= javascript_include_tag "jquery", :type => "text/javascript"   %>
 
   <% if @js_file_to_include != nil %>
 	<% @js_file_to_include.each do |js_file| %>
