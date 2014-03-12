@@ -11,8 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-//= require navbar
-//= require fadeSlideShow
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
