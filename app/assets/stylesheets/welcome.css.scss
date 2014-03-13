@@ -4,7 +4,35 @@
 body{
 	margin: 0;
 }
-
+.log-in-div{
+	position: absolute;
+	width: 20%;
+	background-color: white;
+	z-index: 1;
+	left: 40%;
+	top: 100px;
+}
+#log-in-link{
+	text-decoration: none;
+	color:white;
+}
+#login_submit{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	font-weight: bold;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	
+	background-color: black;
+	border: 1px solid #141414;
+	padding: 10px 25px;
+}
 .navbar-inner {
     background-color: #1B1B1B;
     background-image: -moz-linear-gradient(center top , #222222, #111111);

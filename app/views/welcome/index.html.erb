@@ -4,7 +4,19 @@
 		});
 	</script>
 
-
+	<div class = "log-in-div">
+		<%= form_tag(:contoller => :users, :action => :post_login, :method => :post) do %>
+			<p>
+			<%= text_field_tag :login_val, nil, placeholder: 'email@address.com'  %> <br/>
+			</p>
+			<p>
+			<%= password_field_tag(:pass_val, nil, placeholder: 'password')  %> <br/>
+			</p>
+			<p>
+			<%= submit_tag "Login", :id=>"login_submit" %>
+			</p>
+		<% end %>
+	</div>
 
 	<div class = "navbar" id="navbar">
 		<div class = "navbar-inner">
@@ -14,7 +26,7 @@
 					<td class="nav-td" id="nav-logo" onclick="ScrollAnimate('body')"> Madison Gift Club</td>
 					<td class="nav-td" id="nav-how-it-works"><a id="how-it-works-link" href="#" onclick = "ScrollAnimate('#how-it-works')">How it works</a></td>
 					<td class="nav-td" id="nav-testimonials"><a id="testimonials-link" href="#t" onclick = "ScrollAnimate('#testimonials')">Testimonials</a></td>
-					<td class="nav-td" id="nav-log-in">Log In</td>
+					<td class="nav-td" id="nav-log-in"><a id="log-in-link" href="#" onclick = "ShowLogIn()"> Log In</a></td>
 					<td class="nav-blank-right" id="nav-right-blank"> </td>
 				</tr>
 			</table>
@@ -31,11 +43,9 @@
 </div>
 
 
-
 <div id="how-it-works">
 How it works section
 </div>
 <div id="testimonials">
 Testimonial section
 </div>
-
